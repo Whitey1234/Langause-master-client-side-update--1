@@ -41,7 +41,7 @@ const ExtraSection = () => {
           .slice(0, 5); // Top 5
 
         setTopUsers(contributors);
-        setLatestTutor(data.slice(-3).reverse()); // Last 5
+        setLatestTutor(data.slice(-4).reverse()); // Last 5
       });
   }, []);
 
@@ -76,7 +76,8 @@ Our top members actively participate in lessons, share learning tips, and inspir
       >
         <h2 className="text-3xl text-center font-bold mb-5">Latest Tutors</h2>
         <p className='text-lg font-semibold mb-6 text-center'>Stay updated with the newest content from our community.</p>
-        <Marquee><div className="grid grid-cols-3 lg:grid-cols-3 gap-8">
+        <Marquee>
+          <div className="grid grid-cols-4 lg:grid-cols-4 gap-8">
           {latestTutor.map(tutior => (
 
             
@@ -94,7 +95,8 @@ Our top members actively participate in lessons, share learning tips, and inspir
               </div>
             </div>
           ))}
-        </div></Marquee>
+        </div>
+        </Marquee>
       </div>         
         </div>
     );
