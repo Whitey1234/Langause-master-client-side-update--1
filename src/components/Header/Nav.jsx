@@ -43,7 +43,7 @@ const Nav = () => {
               <>
                 <button
                   onClick={handleLogoutClick}
-                  className="btn btn-sm btn-outline text-white border-white hover:border-accent hover:text-accent"
+                  className="btn btn-sm btn-outline text-white border-white hover:border-accent"
                 >
                   Logout
                 </button>
@@ -61,8 +61,8 @@ const Nav = () => {
               </>
             ) : (
               <>
-                <NavLink to="/login" className="btn btn-outline btn-sm text-white border-white hover:border-info hover:text-accent">Login</NavLink>
-                <NavLink to="/register" className="btn btn-outline btn-sm text-white border-white hover:border-info hover:text-accent">Register</NavLink>
+                <NavLink to="/login" className="btn btn-outline btn-sm text-white border-white hover:border-info ">Login</NavLink>
+                <NavLink to="/register" className="btn btn-outline btn-sm text-white border-white hover:border-info ">Register</NavLink>
               </>
             )}
           </div>
