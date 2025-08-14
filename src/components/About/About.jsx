@@ -2,7 +2,7 @@ import React from 'react';
 
 const About= () => {
   return (
-    <div className=" w-11/12 mx-auto py-12 px-4  my-12">
+    <div className=" w-11/12 mx-auto py-12 px-4  my-13">
       <h1 className="text-4xl font-bold text-center  mb-3 text-primary">About Us</h1>
       <p className="text-lg text-gray-600  mb-10 text-center">
         Welcome to Language Master — a space where learners connect, grow, and achieve fluency together.
