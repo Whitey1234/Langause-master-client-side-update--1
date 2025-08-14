@@ -31,14 +31,15 @@ const Footer = () => {
           {/* Contact Info */}
           <div>
             <h3 className="text-lg font-semibold mb-3">Contact</h3>
-            <p className="text-sm">Email: <span className="text-gray-200">N.siyam120@gmail.com</span></p>
-            <p className="text-sm">Phone: <span className="text-gray-200">+8801743299919</span></p>
+            <p className="text-sm">Email: <span className="text-gray-300">N.siyam120@gmail.com</span></p>
+            <p className="text-sm">Phone: <span className="text-gray-300">+8801743299919</span></p>
           </div>
         </div>
 
         {/* Bottom Copy Section */}
         <div className="mt-10 text-center text-sm text-gray-200">
           © {new Date().getFullYear()} Language Master. All rights reserved.
+
         </div>
       </div>
     </footer>
