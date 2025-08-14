@@ -136,8 +136,8 @@ const TutorDetails = () => {
         </motion.span>{" "}
         Teacher
       </h1>
-      <div className="card lg:card-side bg-base-100 shadow-xl max-w-4xl mx-auto p-4">
-        <figure className="w-full lg:w-1/3 p-4">
+      <div className="card lg:card-side bg-base-100 shadow-xl max-w-5xl mx-auto p-4">
+        <figure className="w-full lg:w-2/3 p-4">
           <img
             src={image}
             alt={name}
